@@ -4,6 +4,10 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Add_Element_To_Array {
+
+    //git remote add origin https://github.com/Hoangnghiango/LEARNING_Advanced_Programing_With_Java.git
+    //git branch -M main
+    //git push -u origin main
     public static void main(String[] args) {
         //Khai báo và khởi tạo mảng số nguyên gồm N phần tử cho trước.
         int[] array = {1,2,3,4,5,6,7,8,9};
