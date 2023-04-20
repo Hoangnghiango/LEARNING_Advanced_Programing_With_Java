@@ -1,0 +1,5 @@
+    Semaphore xử lí đa luồng là một kỹ thuật trong lập trình để quản lý và đồng bộ hóa truy cập vào các tài nguyên được sử dụng bởi nhiều luồng đồng thời trong một ứng dụng đa luồng.
+Semaphore được sử dụng để đảm bảo rằng chỉ có một luồng được phép truy cập vào một tài nguyên cụ thể tại một thời điểm. Nó cung cấp một giải pháp để tránh các vấn đề như thể hiện và xung đột giữa các luồng.
+Semaphore bao gồm một bộ đếm và một danh sách các luồng đang chờ truy cập tài nguyên. Khi một luồng muốn truy cập tài nguyên, nó phải tăng bộ đếm Semaphore. Nếu bộ đếm Semaphore lớn hơn 0, luồng có thể truy cập tài nguyên và giảm bộ đếm Semaphore. Nếu bộ đếm Semaphore bằng 0, Semaphore sẽ đưa luồng vào danh sách chờ đợi.
+Khi một luồng hoàn tất truy cập tài nguyên, Semaphore tăng bộ đếm và kiểm tra danh sách chờ đợi để cho phép một luồng khác truy cập tài nguyên. Quá trình này tiếp tục cho đến khi tất cả các luồng hoàn thành việc truy cập tài nguyên.
+Semaphore được sử dụng rộng rãi trong các ứng dụng đa luồng như hệ thống điều khiển tác vụ và các ứng dụng mạng.
